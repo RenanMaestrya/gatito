@@ -5,7 +5,6 @@ import { SafeAreaView, StatusBar, FlatList, KeyboardAvoidingView, Platform } fro
 import Item from "./Item";
 
 import estilosGlobal from '../../estilos';
-import TelaPadrao from '../../componentes/TelaPadrao'
 
 const servicos = [
     {
@@ -29,11 +28,11 @@ const servicos = [
 ]
 
 export default function Servicos(){
-    return <TelaPadrao>
+    return <>
         <FlatList
             data={servicos}
             renderItem={({item}) => <Item {...item}/>}
             keyExtractor={({id}) => String(id)}
         />
-    </TelaPadrao>
+    </>
 }
