@@ -1,8 +1,9 @@
 
-import Carrinho from './src/telas/Carrinho';
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
 
+import Rotas from './src/Rotas';
+
 export default function App() {
-  return <Carrinho />
+  return <Rotas />
 }
