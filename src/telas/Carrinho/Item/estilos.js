@@ -6,7 +6,7 @@ export default StyleSheet.create({
     padding: 24
   },
   nome: {
-    color: cores.laranja,
+    color: cores.azul,
     fontWeight: 'bold',
     fontSize: 16,
   },
@@ -16,7 +16,7 @@ export default StyleSheet.create({
     marginVertical: 8,
   },
   preco: {
-    color: cores.roxo,
+    color: cores.laranja,
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'right',
