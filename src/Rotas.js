@@ -16,10 +16,10 @@ export default function Rotas(){
     return <NavigationContainer>
         <Tab.Navigator 
             tabBarOptions={{
-                activeTintColor: cores.roxo,
-                inactiveTintColor: cores.claro,
-                activeBackgroundColor: cores.roxo,
-                inactiveBackgroundColor: cores.laranja,
+                activeTintColor: cores.claro,
+                inactiveTintColor: cores.escuro,
+                activeBackgroundColor: cores.claro,
+                inactiveBackgroundColor: cores.azul,
                 style: {
                     height: 70,
                 },
@@ -31,7 +31,7 @@ export default function Rotas(){
                     lineHeight: 21,
                     marginTop: 3,
                     paddingTop: 21,
-                    backgroundColor: cores.laranja,
+                    backgroundColor: cores.azul,
                 },
                 keyboardHidesTabBar: true
             }}>

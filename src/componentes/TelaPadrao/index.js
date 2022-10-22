@@ -8,7 +8,7 @@ import estilos from "./estilos";
 export default function TelaPadrao({ children }){
     return <>
         <SafeAreaView style={estilos.ajusteTela}>
-            <StatusBar backgroundColor={cores.roxo}/>
+            <StatusBar backgroundColor={cores.azul}/>
             <KeyboardAvoidingView 
                 behavior={Platform.OS == "ios" ? "padding" : "height"} 
                 style={estilosGlobal.preencher}
