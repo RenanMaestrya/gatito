@@ -10,20 +10,19 @@ const servicos = [
     {
         id: 1, 
         nome: "Tomate",
-        preco: 79.9 ,
-        descricao: "NAO DE BANHO NO SEU GATO! mas se precisar nós damos!"
+        preco: 1.9 ,
     },
     {
         id: 2,
         nome: "Carne",
-        preco: 89.9,
-        descricao: "Uma dose da vacina V4. Seu gato precisa de duas."
+        preco: 12.9,
+        
     },
     {
         id: 3,
         nome: "Queijo",
-        preco: 99.9,
-        descricao: "Uma dose da vacina antirrábica. seu gato precisa de uma por ano."
+        preco: 9.9,
+        
     }
 ]
 

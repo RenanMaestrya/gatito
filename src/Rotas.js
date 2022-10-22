@@ -8,7 +8,6 @@ import Carrinho from './telas/Carrinho';
 
 
 import { cores } from "./estilos";
-import { Colors } from "react-native/Libraries/NewAppScreen";
 
 const Tab = createBottomTabNavigator();
 
